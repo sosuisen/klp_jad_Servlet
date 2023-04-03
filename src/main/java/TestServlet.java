@@ -38,6 +38,7 @@ public class TestServlet extends HttpServlet {
 				<h2>%s</h2>
 				</body></html>
 				""".formatted(data));
+		// なお、outは Tomcat が close() してくれるので自分で閉じなくてもよい。
 	}
 
 	/**
